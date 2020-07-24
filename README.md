@@ -1,2 +1,7 @@
 # dockers-tsocks-transmission
-Run Transmission in a docker container, wrapped by tsocks (socks client)
+
+This image is based on the linuxserver/transmission image.
+It runs transmission (https://transmissionbt.com/), wrapped in tsocks (http://tsocks.sourceforge.net/)
+
+How to use:
+
