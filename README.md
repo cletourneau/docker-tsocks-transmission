@@ -7,3 +7,14 @@ How to use:
 
 * Follow the configuration for [linuxserver/transmission] (https://github.com/linuxserver/docker-transmission) image.
 * Create tsocks configuration file in ```/config/tsocks.conf``` (default location), or set the ```TSOCKS_CONF_FILE``` to your most convenient location
+
+Example of a tsocks configuration file (SOCKS5)
+
+```
+server = 192.168.1.25
+server_type = 5
+server_port = 1080
+default_user = your_username
+default_pass = your_password
+local = 192.168.1.25/255.255.255.255
+```
